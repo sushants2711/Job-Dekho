@@ -1,6 +1,7 @@
 export const addJobApi = async (data) => {
     try {
-        const url = "http://localhost:2300/api/v1/job/add";
+        // const url = "http://localhost:2300/api/v1/job/add";
+        const url = "https://job-dekho-hcql.onrender.com/api/v1/job/add"
         const response = await fetch(url, {
             method: "POST",
             headers: {
